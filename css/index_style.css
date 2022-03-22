@@ -1,0 +1,53 @@
+.parent
+{
+    background-color:#24353F ;
+    height: 100vh;
+    
+}
+.child
+{
+    width: 65%;
+    margin-top: 50px !important;
+    box-shadow: 0px 0px 20px 10px #1e2d35;
+    background-color: #24353F;
+    
+}
+
+.mybtn
+{
+    width: 75%;
+}
+h1{
+    color: #2096B8;
+}
+p
+{
+    font-size: 20px;
+    font-weight: 200px;
+   
+}
+input, textarea {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+h2{
+    color: #2096B8;
+}
+.navhome
+{
+    color: white;
+    box-shadow: 0px 0px 20px 10px #1e2d35;
+    background-color: #24353F;
+   
+    top: 0px;
+    
+}
+

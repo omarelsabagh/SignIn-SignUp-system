@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+    </head>
+    <body>
+
+
+   
+    <div class="parent position-relative d-flex justify-content-center">
+
+        <div class="child position-absolute text-center  p-5">
+            <h1>Smart Login System</h1>
+            <div class="mt-5 w-75 m-auto">
+                <input required id="upNameValueId" placeholder="Enter Your Name" class="form-control transparent-input" type="text">
+                <div id="errorName" class="d-none justify-content-center text-danger ">
+                    <p>Please enter a real Name</p>
+                </div>
+                
+
+            </div>
+            <div class="my-3 w-75 m-auto">
+                <input required id="upEmailValueId" placeholder="Enter Your Email" class="form-control transparent-input" type="text">
+                <div id="errorEmail" class="d-none justify-content-center text-danger ">
+                    <p>Please enter a valid Email </p>
+                </div>
+               
+
+            </div>
+            <div class="my-3 w-75 m-auto">
+                <input required id="upPasswordValueId" placeholder="Enter Your Password" class="form-control transparent-input" type="text">
+                <div id="errorPassword" class="d-none justify-content-center text-danger ">
+                    <p>Your Passowrd must contain at least (One letter,One number,Special charater, 6-16 charaters) </p>
+                </div>
+
+            </div>
+            
+            
+            <button id="SignUpBtnId" class="mybtn btn btn-outline-info my-3">Sign Up</button>
+
+            <div id="sucessMsg" class="d-none justify-content-center">
+                <h3 class="text-success my-1">
+                    You Have Registered Sucuessfully
+                </h3>
+
+            </div>
+              
+            
+
+            <p class="my-2 text-white">You have an account?<a class="text-white" href="index.html"> Sign in</a> </p>
+
+        </div>
+    </div>
+
+
+
+
+        
+        
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/signup.js"></script>
+    </body>
+</html>
